@@ -7,15 +7,15 @@ The objective of Milestone 1 is to collect, preprocess, and normalize fitness da
 
 2] Key goals:
 
-1.Read multiple CSV/JSON fitness datasets.
+1. Read multiple CSV/JSON fitness datasets.
 
-2.Normalize timestamps to UTC for consistency.
+2. Normalize timestamps to UTC for consistency.
 
-3.Handle missing or null values using appropriate strategies.
+3. Handle missing or null values using appropriate strategies.
 
-4.Align metrics to a uniform 1-minute interval.
+4. Align metrics to a uniform 1-minute interval.
 
-5.Merge datasets into a single cleaned dataset with additional derived features like activity status.
+5. Merge datasets into a single cleaned dataset with additional derived features like activity status.
 
 3] Dataset Source:
 
@@ -35,42 +35,43 @@ Each dataset contains a common key, Id, and a timestamp column that allows mergi
 
 5] Steps Performed:
 
-1.Data Upload
+1. Data Upload
 
-2.Uploaded CSV datasets into Google Colaboratory.
+2. Uploaded CSV datasets into Google Colaboratory.
 
-3.Verified schema of each file and identified columns required for analysis.
+3. Verified schema of each file and identified columns required for analysis.
 
-4.Timestamp Normalization
+4. Timestamp Normalization
 
-5.Converted all timestamp columns to UTC using Pandas pd.to_datetime(..., utc=True).
+5. Converted all timestamp columns to UTC using Pandas pd.to_datetime(..., utc=True).
 
-6.Ensured that SleepDay, ActivityDate, ActivityMinute, and heart rate timestamps are consistent.
+6. Ensured that SleepDay, ActivityDate, ActivityMinute, and heart rate timestamps are consistent.
 
-7.Missing Value Handling
+7. Missing Value Handling
 
-8.For heart rate: missing values filled using forward-fill.
+8. For heart rate: missing values filled using forward-fill.
 
-9.For steps and calories: daily values expanded to 1-minute resolution, missing minutes filled with 0.
+9. For steps and calories: daily values expanded to 1-minute resolution, missing minutes filled with 0.
 
-10.For sleep: daily sleep duration expanded to 1-minute intervals, missing minutes filled with 0.
+10. For sleep: daily sleep duration expanded to 1-minute intervals, missing minutes filled with 0.
 
 6] Resampling & Alignment:
 
-1.Heart rate resampled to 1-minute mean values.
+1. Heart rate resampled to 1-minute mean values.
 
-2.Steps and calories expanded from daily to 1-minute resolution.
+2. Steps and calories expanded from daily to 1-minute resolution.
 
-3.Sleep duration aligned to 1-minute intervals.
+3. Sleep duration aligned to 1-minute intervals.
 
-4.All datasets merged using Id and Time as keys.
+4. All datasets merged using Id and Time as keys.
 
-5.Derived Feature: Activity
+5. Derived Feature: Activity
 
-6.Added a new column Activity based on steps:
+6. Added a new column Activity based on steps:
 
 Steps > 0 → 'Active'  
 Steps = 0 → 'Inactive'
+
 
 
 7] Final Dataset Creation:
@@ -81,7 +82,8 @@ Steps = 0 → 'Inactive'
 
 3.Ensured all columns are properly formatted and free from missing values.
 
-8]Tools & Libraries Used:
+
+8] Tools & Libraries Used:
 
 1.Python 3.x
 
@@ -95,18 +97,19 @@ Steps = 0 → 'Inactive'
 
 9] Final Dataset Features:
 
-Column	Description
-Id	Unique user ID
-Time	Timestamp (UTC)
-HeartRate	Heart rate per minute
-Steps	Step count per minute
-Calories	Calories burned per minute
-TotalMinutesAsleep	Sleep duration per minute
-Activity	Derived activity status (‘Active’/’Inactive’)
+1. Description
+2. Id	Unique user ID
+3. Time	Timestamp (UTC)
+4. HeartRate	Heart rate per minute
+5. Steps	Step count per minute
+6. Calories	Calories burned per minute
+7. TotalMinutesAsleep	Sleep duration per minute
+8. Activity	Derived activity status (‘Active’/’Inactive’)
 
 10] Visualizations:
 
 We generated graphs to understand temporal patterns:
+
 1. Heart Rate vs Time
 Shows heart rate fluctuations over the day.
 2. Steps vs Time
