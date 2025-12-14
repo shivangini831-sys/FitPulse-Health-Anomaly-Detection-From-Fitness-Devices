@@ -36,23 +36,37 @@ Each dataset contains a common key, Id, and a timestamp column that allows mergi
 5] Steps Performed:
 
 1.Data Upload
+
 2.Uploaded CSV datasets into Google Colaboratory.
+
 3.Verified schema of each file and identified columns required for analysis.
+
 4.Timestamp Normalization
+
 5.Converted all timestamp columns to UTC using Pandas pd.to_datetime(..., utc=True).
+
 6.Ensured that SleepDay, ActivityDate, ActivityMinute, and heart rate timestamps are consistent.
+
 7.Missing Value Handling
+
 8.For heart rate: missing values filled using forward-fill.
+
 9.For steps and calories: daily values expanded to 1-minute resolution, missing minutes filled with 0.
+
 10.For sleep: daily sleep duration expanded to 1-minute intervals, missing minutes filled with 0.
 
 6] Resampling & Alignment:
 
 1.Heart rate resampled to 1-minute mean values.
+
 2.Steps and calories expanded from daily to 1-minute resolution.
+
 3.Sleep duration aligned to 1-minute intervals.
+
 4.All datasets merged using Id and Time as keys.
+
 5.Derived Feature: Activity
+
 6.Added a new column Activity based on steps:
 
 Steps > 0 → 'Active'  
@@ -62,15 +76,21 @@ Steps = 0 → 'Inactive'
 7] Final Dataset Creation:
 
 1.Merged heart rate, steps, calories, sleep, and activity into final_df.
+
 2.Sorted by Id and Time.
+
 3.Ensured all columns are properly formatted and free from missing values.
 
 8]Tools & Libraries Used:
 
 1.Python 3.x
+
 2.Google Colab for cloud-based execution
+
 3.Pandas – for data manipulation and merging
+
 4.NumPy – for numerical operations
+
 5.Matplotlib & Seaborn – for data visualization
 
 9] Final Dataset Features:
