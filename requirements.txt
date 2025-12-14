@@ -6,13 +6,9 @@ pandas>=1.5.0
 Why required:
 
 Reading CSV files (read_csv)
-
 Timestamp conversion (to_datetime)
-
 Handling missing values (fillna)
-
 Resampling time-series data to 1-minute intervals
-
 Merging multiple datasets into a single DataFrame
 
 Role in project:
@@ -22,11 +18,8 @@ Core library for data ingestion, preprocessing, normalization, and consolidation
 numpy>=1.23.0
 
 Why required:
-
 Efficient numerical operations
-
 Creating conditional features (e.g., Active / Inactive status)
-
 Handling array-based computations
 
 Role in project:
@@ -47,11 +40,8 @@ Used for time-series visualization and exploratory analysis.
 seaborn>=0.12.0
 
 Why required:
-
 High-level statistical plots
-
 Cleaner visualization of distributions and correlations
-
 Enhances readability of graphs
 
 Role in project:
