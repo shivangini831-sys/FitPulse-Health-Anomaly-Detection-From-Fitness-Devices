@@ -1,1 +1,5 @@
-
+heartrate = pd.read_csv('/content/drive/MyDrive/Fitpulse dataset/heart_rate.csv')
+activity = pd.read_csv('/content/drive/MyDrive/Fitpulse dataset/dailyActivity_merged.csv')
+sleep = pd.read_csv('/content/drive/MyDrive/Fitpulse dataset/sleepDay_merged.csv')
+steps = pd.read_csv('/content/drive/MyDrive/Fitpulse dataset/dailySteps_merged.csv')
+calories = pd.read_csv('/content/drive/MyDrive/Fitpulse dataset/dailyCalories_merged.csv')
