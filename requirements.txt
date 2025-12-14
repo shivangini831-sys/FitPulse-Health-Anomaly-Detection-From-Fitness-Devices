@@ -1,7 +1,7 @@
 Libraries Used & Justification
-1️⃣ pandas
-pandas>=1.5.0
 
+1]  pandas
+pandas>=1.5.0
 
 Why required:
 
@@ -18,9 +18,8 @@ Merging multiple datasets into a single DataFrame
 Role in project:
 Core library for data ingestion, preprocessing, normalization, and consolidation.
 
-2️⃣ numpy
+2]  numpy
 numpy>=1.23.0
-
 
 Why required:
 
@@ -33,24 +32,19 @@ Handling array-based computations
 Role in project:
 Supports pandas operations and feature creation during preprocessing.
 
-3️⃣ matplotlib
+3] matplotlib
 matplotlib>=3.6.0
 
-
 Why required:
-
 Visualizing heart rate trends
-
 Plotting steps, calories, and sleep patterns over time
-
 Generating screenshots for milestone submission
 
 Role in project:
 Used for time-series visualization and exploratory analysis.
 
-4️⃣ seaborn
+4]  seaborn
 seaborn>=0.12.0
-
 
 Why required:
 
