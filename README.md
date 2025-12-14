@@ -1,4 +1,5 @@
 FitPulse Health Anomaly Detection from Fitness Devices
+
 Milestone 1: Data Collection and Preprocessing
 
 1] Objective
@@ -85,15 +86,15 @@ Steps = 0 → 'Inactive'
 
 8] Tools & Libraries Used:
 
-1.Python 3.x
+1. Python 3.x
 
-2.Google Colab for cloud-based execution
+2. Google Colab for cloud-based execution
 
-3.Pandas – for data manipulation and merging
+3. Pandas – for data manipulation and merging
 
-4.NumPy – for numerical operations
+4. NumPy – for numerical operations
 
-5.Matplotlib & Seaborn – for data visualization
+5. Matplotlib & Seaborn – for data visualization
 
 9] Final Dataset Features:
 
