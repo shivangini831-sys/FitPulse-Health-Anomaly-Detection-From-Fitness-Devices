@@ -105,4 +105,3 @@ PCA reduces noise and highlights the most significant patterns in data, allowing
 - Residuals are effective indicators of unusual behavior.  
 - PCA allowed visualization and dimensionality reduction of complex features.  
 - Clustering successfully identified normal vs atypical patterns.  
-
