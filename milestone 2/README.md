@@ -17,7 +17,7 @@ This milestone lays the **foundation for anomaly detection**, which will be addr
 
  2]. Datasets Used
 
-1. **Heart Rate (`heart_rate.csv`)
+1. **Heart Rate (`heart_rate.csv`)**
    - Columns: `timestamp`, `heart_rate`  
    - Frequency: every minute/second (depending on device)  
 
@@ -65,13 +65,7 @@ TSFresh allows automated extraction of features that can capture subtle temporal
 - Steps residuals highlighted periods of unusual activity (very high or low steps).  
 - Sleep residuals captured nights of insufficient or excessive sleep.  
 
-**Visualizations:**  
 
-![Heart Rate Forecast](screenshots/hr_forecast.png)  
-![Steps Forecast](screenshots/steps_forecast.png)  
-![Sleep Forecast](screenshots/sleep_forecast.png)  
-
----
 
 ### 3.3 Dimensionality Reduction using PCA
 - **Combined TSFresh features** from all datasets were
@@ -92,10 +86,6 @@ PCA reduces noise and highlights the most significant patterns in data, allowing
   - **Cluster 0:** Normal behavioral patterns  
   - **Cluster 1:** Atypical patterns or potential anomalies  
 
-**Visualization:**  
-
-![Behavioral Clustering](screenshots/clustering.png)  
-
 **Observation:**  
 - One cluster contained the majority of daily samples, indicating typical behavior.  
 - The smaller cluster captured atypical or anomalous behavior, setting the stage for anomaly detection in Milestone 3.
@@ -115,9 +105,4 @@ PCA reduces noise and highlights the most significant patterns in data, allowing
 - Residuals are effective indicators of unusual behavior.  
 - PCA allowed visualization and dimensionality reduction of complex features.  
 - Clustering successfully identified normal vs atypical patterns.  
-- This milestone provides a **robust foundation for anomaly detection**, which will utilize residuals and clusters in Milestone 3.
-
----
-
-## 6. Folder Structure
 
