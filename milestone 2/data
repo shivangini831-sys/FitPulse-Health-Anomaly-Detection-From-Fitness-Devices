@@ -1,8 +1,0 @@
-import os
-
-# Create folder inside Milestone2
-os.makedirs("data", exist_ok=True)
-from google.colab import files
-
-# Upload heart_rate.csv, steps.csv, sleep.csv
-uploaded = files.upload()
