@@ -17,15 +17,15 @@ This milestone lays the **foundation for anomaly detection**, which will be addr
 
  2]. Datasets Used
 
-1. **Heart Rate (`heart_rate.csv`)**
+1. **Heart Rate (`/content/drive/MyDrive/heart_rate.csv')**
    - Columns: `timestamp`, `heart_rate`  
    - Frequency: every minute/second (depending on device)  
 
-2. **Steps (`steps.csv`)**  
+2. **Steps (`/content/drive/MyDrive/steps.csv`)**  
    - Columns: `timestamp`, `steps`  
    - Captures daily or minute-level activity counts  
 
-3. **Sleep Duration (`sleep.csv`)**  
+3. **Sleep Duration (`/content/drive/MyDrive/sleep.csv`)**  
    - Columns: `date`, `sleep_hours`  
    - Daily total sleep duration  
 
