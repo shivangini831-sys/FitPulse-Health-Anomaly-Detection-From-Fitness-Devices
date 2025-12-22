@@ -65,6 +65,8 @@ TSFresh allows automated extraction of features that can capture subtle temporal
 - Steps residuals highlighted periods of unusual activity (very high or low steps).  
 - Sleep residuals captured nights of insufficient or excessive sleep.
 - ![image alt](https://github.com/shivangini831-sys/FitPulse-Health-Anomaly-Detection-From-Fitness-Devices/blob/b50f71804dd34a1bb8922b45296e7021d2bcda55/Screenshot%202025-12-22%20094348.png)
+- ![image alt](https://github.com/shivangini831-sys/FitPulse-Health-Anomaly-Detection-From-Fitness-Devices/blob/af2acefcf931921fd26b3018ea86782bfa0590c9/Screenshot%202025-12-22%20094406.png)
+- ![image alt](https://github.com/shivangini831-sys/FitPulse-Health-Anomaly-Detection-From-Fitness-Devices/blob/af2acefcf931921fd26b3018ea86782bfa0590c9/Screenshot%202025-12-22%20094458.png)
 
 
 ### 3.3 Dimensionality Reduction using PCA
@@ -84,7 +86,8 @@ PCA reduces noise and highlights the most significant patterns in data, allowing
 - **KMeans** clustering (k=2) was applied to the PCA-reduced features.  
 - Clusters represented:
   - **Cluster 0:** Normal behavioral patterns  
-  - **Cluster 1:** Atypical patterns or potential anomalies  
+  - **Cluster 1:** Atypical patterns or potential anomalies
+  - ![image alt](https://github.com/shivangini831-sys/FitPulse-Health-Anomaly-Detection-From-Fitness-Devices/blob/af2acefcf931921fd26b3018ea86782bfa0590c9/Screenshot%202025-12-22%20094552.png)
 
 **Observation:**  
 - One cluster contained the majority of daily samples, indicating typical behavior.  
