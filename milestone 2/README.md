@@ -64,10 +64,6 @@ TSFresh allows automated extraction of features that can capture subtle temporal
 - Heart rate residuals identified days with unusually high or low heart rates.  
 - Steps residuals highlighted periods of unusual activity (very high or low steps).  
 - Sleep residuals captured nights of insufficient or excessive sleep.
-"C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094348.png"
-"C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094406.png"
-"C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094458.png"
-
 
 
 ### 3.3 Dimensionality Reduction using PCA
@@ -92,7 +88,6 @@ PCA reduces noise and highlights the most significant patterns in data, allowing
 **Observation:**  
 - One cluster contained the majority of daily samples, indicating typical behavior.  
 - The smaller cluster captured atypical or anomalous behavior, setting the stage for anomaly detection in Milestone 3.
-- "C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094552.png"
 
 
 ## 4. Tools and Libraries Used
