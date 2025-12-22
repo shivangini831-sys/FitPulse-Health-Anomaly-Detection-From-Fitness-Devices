@@ -64,9 +64,9 @@ TSFresh allows automated extraction of features that can capture subtle temporal
 - Heart rate residuals identified days with unusually high or low heart rates.  
 - Steps residuals highlighted periods of unusual activity (very high or low steps).  
 - Sleep residuals captured nights of insufficient or excessive sleep.
-- "C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094348.png"
-- "C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094406.png"
-- "C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094458.png"
+"C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094348.png"
+"C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094406.png"
+"C:\Users\Shivangini\OneDrive\Pictures\Screenshots\Screenshot 2025-12-22 094458.png"
 
 
 
