@@ -64,6 +64,7 @@ TSFresh allows automated extraction of features that can capture subtle temporal
 - Heart rate residuals identified days with unusually high or low heart rates.  
 - Steps residuals highlighted periods of unusual activity (very high or low steps).  
 - Sleep residuals captured nights of insufficient or excessive sleep.
+- ![image alt](https://github.com/shivangini831-sys/FitPulse-Health-Anomaly-Detection-From-Fitness-Devices/blob/b50f71804dd34a1bb8922b45296e7021d2bcda55/Screenshot%202025-12-22%20094348.png)
 
 
 ### 3.3 Dimensionality Reduction using PCA
