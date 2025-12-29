@@ -1,4 +1,4 @@
-Milestone 2: Feature Extraction and Modeling
+***Milestone 2: Feature Extraction and Modeling***
 
 Project: FitPulse Health Anomaly Detection from Fitness Devices  
 
@@ -75,8 +75,6 @@ TSFresh allows automated extraction of features that can capture subtle temporal
 
 **Reasoning:**  
 PCA reduces noise and highlights the most significant patterns in data, allowing effective clustering of behavioral patterns.
-
----
 
 ### 3.4 Behavioral Pattern Clustering
 - **KMeans** clustering (k=2) was applied to the PCA-reduced features.  
