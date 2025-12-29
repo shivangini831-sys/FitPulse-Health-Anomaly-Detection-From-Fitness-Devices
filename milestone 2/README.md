@@ -34,7 +34,6 @@ This milestone lays the **foundation for anomaly detection**, which will be addr
 - Missing or inconsistent values handled (forward fill or interpolation where necessary)  
 - Daily aggregation applied to steps and sleep datasets  
 
----
 
  3]. Methodology
 
@@ -53,7 +52,6 @@ This milestone lays the **foundation for anomaly detection**, which will be addr
 **Reasoning:**  
 TSFresh allows automated extraction of features that can capture subtle temporal patterns without manual feature engineering. Daily windows ensure each row corresponds to a meaningful observation for clustering.
 
----
 
 ### 3.2 Trend Modeling using Prophet
 - **Prophet** was applied separately to heart rate, steps, and sleep datasets.  
