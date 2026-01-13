@@ -64,8 +64,3 @@ All datasets are cleaned, normalized, and aligned using date-based merging.
 - **Deployment:** Streamlit with Ngrok tunneling
 - **Platform:** Google Colaboratory
 
----
-
-## Conclusion
-The FitPulse Health Anomaly Detection system effectively demonstrates how wearable data combined with machine learning can assist in early detection of potential health anomalies. The interactive dashboard enhances usability and real-time analysis, making the solution practical for health monitoring applications.
-
