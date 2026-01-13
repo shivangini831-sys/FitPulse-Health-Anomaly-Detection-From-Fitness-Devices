@@ -66,22 +66,6 @@ All datasets are cleaned, normalized, and aligned using date-based merging.
 
 ---
 
-## Challenges Faced
-- Column mismatches across datasets
-- Streamlit caching issues during development
-- Date-time format inconsistencies
-
-These challenges were resolved through column normalization, process restarts, and robust validation logic.
-
----
-
 ## Conclusion
 The FitPulse Health Anomaly Detection system effectively demonstrates how wearable data combined with machine learning can assist in early detection of potential health anomalies. The interactive dashboard enhances usability and real-time analysis, making the solution practical for health monitoring applications.
 
----
-
-## Future Enhancements
-- Integration of additional health metrics (calories, oxygen level)
-- Use of advanced anomaly detection algorithms (Isolation Forest, DBSCAN)
-- Real-time data streaming support
-- User authentication and personalized dashboards
